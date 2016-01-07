@@ -33,7 +33,7 @@
     "public": false
   },
   "alumno": {
-    "dataSource": "db",
+    "dataSource": "mongodbMe",
     "public": true
   }
 }

@@ -3,9 +3,16 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "mongodb": {
+      "collection": "alumnos"
+    }
   },
   "properties": {
+    "id": {
+      "type": "String",
+      "id": true,
+      "length": 20
+    },
     "firstName": {
       "type": "string"
     },
